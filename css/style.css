@@ -1,0 +1,65 @@
+:root {
+    --bg: #000;
+    --acsent-color: #D23166;
+    --main-color: #FFF;
+    --sociol-bg: rgba(255,255,255,0.10);
+    --card-bg: #151515;
+}
+
+.container {
+    width: 1267px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 1px solid red;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+/* header */
+.header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    gap: 95px;
+}
+
+.header-link {
+color: var(--main-color);
+text-align: justify;
+font-family: Manrope;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+}
+
+.header-items {
+    display: flex;
+    gap: 15px;
+}
+
+.header-social {
+    width: 36px;
+    height: 36px;
+    background-color: var(--sociol-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.header-img {
+    width: 15px;
+    height: 15px;
+}
